@@ -94,6 +94,11 @@
   <project path="system/netd" name="AICP/system_netd" groups="pdk" remote="aicp" />
   <project path="system/sepolicy" name="AICP/system_sepolicy" groups="pdk" remote="aicp" />
 
+  <!-- Trees -->
+  <project path="device/xiaomi/juice" name="darknius20/devise" remote="github" revision="aicp11" clone-depth="1" />
+  <project path="vendor/xiaomi/juice" name="darknius20/android_vendor_xiaomi_juice" remote="github" revision="11.0" clone-depth="1" />
+  <project path="kernel/xiaomi/juice" name="darknius20/guuji_kernel_juice" remote="github" revision="main.stbl" clone-depth="1" />
+
     <!-- OMNI additions -->
   <project path="packages/apps/Phonograph" name="omnirom/android_packages_apps_Phonograph" remote="omni" />
 

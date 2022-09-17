@@ -41,7 +41,7 @@
   <project path="frameworks/opt/aicpgear" name="AICP/frameworks_opt_aicpgear" remote="aicp" />
   <project path="frameworks/opt/jamesdsp" name="AICP/frameworks_opt_jamesdsp" remote="aicp" />
   <project path="frameworks/opt/slimrecent" name="AICP/frameworks_opt_slimrecent" remote="aicp" />
-  <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
+  <project path="packages/apps/AicpExtras" name="ForkROM/packages_apps_AicpExtras" remote="github" revision="r11.1" clone-depth="1" />
   <project path="packages/apps/ExactCalculator" name="AICP/packages_apps_ExactCalculator" groups="apps_nfc,pdk-fs" remote="aicp" />
   <project path="packages/apps/GamingMode" name="AICP/packages_apps_GamingMode" remote="aicp" />
   <project path="packages/apps/JamesDSPManager" name="AICP/packages_apps_JamesDSPManager" remote="aicp" />
@@ -57,11 +57,11 @@
   <project path="packages/services/Telephony" name="AICP/packages_services_Telephony" remote="aicp" />
   <project path="prebuilts/clang/host/linux-x86_custom" name="AICP/prebuilts_clang_host_linux-x86" remote="aicp" revision="master" clone-depth="1" />
   <project path="system/update_engine" name="AICP/system_update_engine" remote="aicp" />
-  <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
+  <project path="vendor/aicp" name="ForkROM/vendor_aicp" remote="github" revision="r11.1" clone-depth="1" />
 
  <!-- AICP AOSP Repos -->
   <project path="bionic" name="AICP/bionic" remote="aicp" />
-  <project path="build/make" name="AICP/build" groups="pdk" remote="aicp" >
+  <project path="build/make" name="ForkROM/aicp-build" remote="github" revision="r11.1" clone-depth="1" />
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -75,7 +75,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="frameworks/av" name="AICP/frameworks_av" groups="pdk" remote="aicp" />
-  <project path="frameworks/base" name="AICP/frameworks_base" remote="aicp" />
+  <project path="frameworks/base" name="ForkROM/aicp-fwb" remote="github" revision="r11.1" clone-depth="1" />
   <project path="frameworks/libs/systemui" name="AICP/frameworks_libs_systemui" remote="aicp"/>
   <project path="frameworks/native" name="AICP/frameworks_native" remote="aicp" />
   <project path="packages/apps/Contacts" name="AICP/packages_apps_Contacts" remote="aicp" />

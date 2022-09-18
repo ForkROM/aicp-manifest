@@ -61,7 +61,7 @@
 
  <!-- AICP AOSP Repos -->
   <project path="bionic" name="AICP/bionic" remote="aicp" />
-  <project path="build/make" name="ForkROM/aicp-build" remote="github" revision="r11.1" clone-depth="1" />
+  <project path="build/make" name="ForkROM/aicp-build" remote="github" revision="r11.1" clone-depth="1" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
